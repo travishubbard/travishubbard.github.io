@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "MongoHQ"
+date:   2014-01-07 12:45:16
+categories: MongoHQ Updates
+---
+
+This is the demo code:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Travis')
+#=> prints 'Hi, Travis' to STDOUT.
+{% endhighlight %}
+
+Check out [MongoHQ][mongohq] for more info on how to remote host your mongo data.
+
+[mongohq]:    http://mongohq.com
