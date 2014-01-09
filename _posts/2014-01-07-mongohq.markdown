@@ -1,18 +1,14 @@
 ---
 layout: post
-title:  "MongoHQ"
+title:  "Meteor and MongoHQ"
 date:   2014-01-07 12:45:16
-categories: MongoHQ Updates
+categories: MongoHQ
 ---
 
-This is the demo code:
+Set the environment variable:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Travis')
-#=> prints 'Hi, Travis' to STDOUT.
+{% highlight bash %}
+export MONGO_URL="mongodb://userid:password@paulo.mongohq.com:10086/your_databasename"
 {% endhighlight %}
 
 Check out [MongoHQ][mongohq] for more info on how to remote host your mongo data.
