@@ -5,13 +5,11 @@ date:   2014-01-07 12:45:16
 categories: MongoHQ
 ---
 
-I  use MongoHQ to host data for my meteor applications because it's fast and easy. Getting meteor to point to MongoHQ is easy, just set the MONGO_URL environment variablea as follows:
+I  use MongoHQ to host data for my meteor applications because it's fast and easy. Making meteor aware of MongoHQ is easy, just set the MONGO_URL environment variable like so:
 
 {% highlight bash %}
 export MONGO_URL="mongodb://userid:password@paulo.mongohq.com:10086/your_databasename"
 {% endhighlight %}
-
-Over time, as my data requirements grow, I may re-evaluate this decision and decide to host locally on my AWS servers.
 
 Check out [MongoHQ][mongohq] for more info.
 
