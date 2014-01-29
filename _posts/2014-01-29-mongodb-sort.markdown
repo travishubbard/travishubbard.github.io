@@ -31,6 +31,7 @@ return sorted;
 Which left me scratching my head -- why can I not natively sort results? So after a run and some food, discovered the folliwng appears to be the correct way to sort:
 
 {% highlight javascript %}
-var sortedResultsArray = customers.find({appointments: {$gt : 0}}, {sort: {submitted: -1}}).fetch();
+var sortedResultsArray = customers.find({appointments: {$gt : 0}}, 
+{sort: {submitted: -1}}).fetch();
 {% endhighlight %}
 
