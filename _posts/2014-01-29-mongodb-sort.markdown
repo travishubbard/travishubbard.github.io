@@ -10,7 +10,7 @@ Searching through the MongoDB docs regarding sorting yeilded the following:
 db.collection.find().sort( { age: -1 } );
 {% endhighlight %}
 
-which kept blowing up my Meteor Code. So I wrote a sort method on the Array:
+which kept blowing up my Meteor code. So I wrote a sort method on the Array:
 
 {% highlight javascript %}
 var sorted = customers.sort(function(a, b) {
@@ -28,7 +28,7 @@ var sorted = customers.sort(function(a, b) {
 return sorted;
 {% endhighlight %}
 
-Which left me scratching my head -- why can I not natively sort results? So after a run and some food, discovered the folliwng appears to be the correct way to sort:
+A nice workaround, but left me scratching my head -- why can I not natively sort results? So after a run and some food, discovered the folliwng appears to be the correct way to sort:
 
 {% highlight javascript %}
 var sortedResultsArray = customers.find({appointments: {$gt : 0}}, 
