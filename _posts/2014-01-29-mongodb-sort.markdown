@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MongoHQ sorting"
+title:  "MongoDB/Meteor sorting a result set "
 date:   2014-01-29 08:30:00
 categories: MongoDB sort in Meteor
 ---
