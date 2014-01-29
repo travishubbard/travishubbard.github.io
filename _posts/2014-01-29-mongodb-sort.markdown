@@ -5,7 +5,7 @@ date:   2014-01-29 08:30:00
 categories: MongoDB sort in Meteor
 ---
 
-Searching through the MongoDB docs regarding sorting yeilded the following:
+Searching through the MongoDB docs regarding sorting yielded the following:
 {% highlight javascript %}
 db.collection.find().sort( { age: -1 } );
 {% endhighlight %}
